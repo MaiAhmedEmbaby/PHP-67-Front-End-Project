@@ -1,0 +1,259 @@
+.lead{
+    color: rgb(45, 45, 218) !important;
+}
+p{
+    font-weight: bold;
+}
+header{
+    background-image: url(../images/shape-a.jpg);
+}
+
+/*navbar*/
+nav{
+    display: flex;
+    justify-content: center !important;
+    background-color: white;
+    align-items: center;
+}
+.logo{
+
+    font-size: 2rem;
+    color: rgb(5, 5, 51) !important;
+}
+.nav .nav-item a{
+     color: black;
+}
+.nav .nav-item{
+    display: flex;
+    justify-content: space-around !important;
+    cursor: pointer;
+   
+}
+.nav .nav-item a:hover{
+    color:blue !important;
+}
+.bnav{
+    
+    margin-left: 5%;
+}
+.nav .nav-item .home-news{
+    color: rgb(9, 9, 247) !important;
+}
+button{
+    border-radius: 20px!important;
+    cursor: pointer;
+}
+.one{
+    margin-top: 80px;
+}
+/*end navbar*/
+/*start section head*/
+/*start section two*/
+/* part two in section two*/
+.box{
+    border: 1px solid !important;
+    box-shadow: 1px 5px 8px 8px  rgb(97, 205, 241) !important;
+    text-align: center !important;
+}
+.box .box1{
+    font-size: 1rem !important;
+    height: 45px !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+/*end section two*/
+/*stard section three*/
+.three-bg{
+    background-color: rgba(0, 0, 0, 0.103);
+}
+.bg-three{
+    background-color: white !important;
+    max-width: 30% !important;
+    margin: 5px !important;
+}
+.img3{
+   max-width: 250px !important;
+    height: 300px !important;
+}
+.img-three{
+    width: 280px;
+}
+/*end section three*/
+/* stard section four*/
+.four-bg{
+background-color: rgba(0, 0, 0, 0.068);
+}
+.img-four{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 10px;
+    
+}
+/*end section four*/
+/* start section fife*/
+.fife-bg{
+    background-color: rgba(0, 0, 0, 0.068);
+}
+.img-fife{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+/*end section fife*/
+/* start section six*/
+div .six{
+    background-color: rgba(0, 0, 0, 0.068);
+}
+.img-six{
+    width: 400px;
+    height: 600px;
+}
+/*end section six*/
+/*start section seven*/
+.seven-bg{
+    background-color: rgba(0, 0, 0, 0.068);
+}
+.img-seven{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+/*--end section seven*/
+/*start section eight*/
+.eight-bg{
+    background-image: url(../images/shape-a.jpg);
+   
+}
+.bgeight{
+     background-color: rgba(5, 19, 80, 0.808);
+    color: white !important;
+
+}
+.bg-blue{
+    background-color: rgba(16, 16, 129, 0.781);
+    padding: 20px !important;
+}
+/*end section eight*/
+/*start section nine*/
+.nine-bg{
+    background-color: rgba(0, 0, 0, 0.068);
+}
+.img-nine{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    border-radius: 50%;
+    position: relative;
+}
+.imgbig-nine{
+    width: 300px;
+    height: 400px;
+}
+.img2-nine{
+    width: 100px;
+    height: 100px;
+    border: 1px solid green;
+    border-radius: 50%;
+    position: relative;
+}
+.ico{
+    position: absolute;
+    margin-top: 0;
+    margin-left: 40px;
+}
+/*start section ten*/
+.bord{
+    border: 1px solid rgb(18, 18, 71);
+    box-sizing: border-box;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 1rem;
+    z-index: 999999;
+}
+.bord span{
+    float: right;
+}
+/*end section ten*/
+/*start section eleven*/
+.bg-eleven {
+     background-color: rgba(0, 0, 0, 0.089);
+   
+}
+.img-eleven{
+    width: 300px;
+    height: 300px;
+}
+.bgb{
+    background-color: white;
+    max-width: 30% !important;
+
+}
+/*end  section eleven*/
+/*start section footer*/
+.footer{
+     background-image: url(../images/shape-a.jpg);
+}
+.foot{
+     background-color: rgb(8, 8, 68, 0.88);
+    color: white;
+
+}
+strong .st{
+    float: right;
+}
+/*end footer*/
+/*start scroll to rop*/
+#scroll-top{
+    width: 50px;
+    height: 40px;
+    background-color: rgb(29, 29, 221);
+    color: white;
+    text-align: center;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    z-index: 99999;
+    display:none ;
+    border-radius: 50%;
+}
+.footer button{
+    border-radius: 0% !important;
+}
+.show{
+    display: block !important;
+}
+/*stare loading*/
+.loading{
+    background-color: rgba(34, 34, 34, 0.993);
+    color:#fff;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+}
+.heddin{
+    display: none!important;
+}
+.pload{
+    margin-top: 600px;
+    margin-left: 20px;
+}
+body{
+    overflow: hidden;
+}
+/*end loading*/
+/*start nav toggle*/
+.remov{
+    display: none;
+}
+.bgblue{
+    background-color: blue;
+    color: white;
+}
+.bgwit{
+    background-color: white;
+    color: blue;
+}
